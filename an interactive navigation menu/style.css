@@ -1,0 +1,57 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 4px 2px -2px gray;
+    transition: background 0.3s ease;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffdd57;
+}
+
+.content {
+    margin-top: 60px;
+    padding: 20px;
+}
+
+section {
+    padding: 100px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+section h1 {
+    margin: 0;
+}
+
+section p {
+    margin: 10px 0 0;
+}
+
